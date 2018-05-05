@@ -1,0 +1,12 @@
+*.log
+.DS_Store
+.idea
+.gradle
+.classpath
+.project
+.cache
+build/
+target/
+node_modules/
+bower_components/
+

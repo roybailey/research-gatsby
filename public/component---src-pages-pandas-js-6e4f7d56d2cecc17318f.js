@@ -1,0 +1,2 @@
+webpackJsonp([0xfd725c54b696],{620:function(e,t,n){(function(a){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var u=n(1);l(u);t.default=function(){return a.createElement("div",null,a.createElement("h1",null,"Amazing Pandas Eating Things"),a.createElement("div",null,a.createElement("img",{src:"http://localhost:8181/public/panda-group-eating-bamboo.jpg",alt:"Group of pandas eating bamboo"})))},e.exports=t.default}).call(t,n(28))}});
+//# sourceMappingURL=component---src-pages-pandas-js-6e4f7d56d2cecc17318f.js.map

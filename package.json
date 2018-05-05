@@ -1,0 +1,37 @@
+{
+  "name": "research-gatsby",
+  "description": "Gatsby Research Site",
+  "version": "1.0.0",
+  "author": "Roy Bailey<roybaileybiz@gmail.com>",
+  "dependencies": {
+    "gatsby": "^1.9.247",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-copy-files": "^1.0.1",
+    "gatsby-plugin-glamor": "^1.6.13",
+    "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby-plugin-sharp": "^1.6.44",
+    "gatsby-plugin-typography": "^1.7.18",
+    "gatsby-remark-copy-linked-files": "^1.5.32",
+    "gatsby-remark-images": "^1.5.63",
+    "gatsby-source-filesystem": "^1.5.33",
+    "gatsby-transformer-remark": "^1.7.40",
+    "glamorous": "^4.12.4",
+    "react-helmet": "^5.2.0",
+    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-react": "^0.79.1",
+    "typography-theme-stardust": "^0.16.14"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "http": "http-server -p 8001 public"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.0"
+  }
+}
