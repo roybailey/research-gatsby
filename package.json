@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "author": "Roy Bailey<roybaileybiz@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.247",
-    "gatsby-link": "^1.6.40",
+    "gatsby": "^1.9.259",
+    "gatsby-link": "^1.6.44",
     "gatsby-plugin-copy-files": "^1.0.1",
     "gatsby-plugin-glamor": "^1.6.13",
     "gatsby-plugin-react-helmet": "^2.0.10",
@@ -26,10 +26,10 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
-    "http": "http-server -p 8001 public"
+    "start": "http-server -p 8001 ."
   },
   "devDependencies": {
     "prettier": "^1.12.0"

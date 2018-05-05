@@ -1,5 +1,7 @@
 
 module.exports = {
+  // Note: pathPrefix must *not* have a trailing slash (this will correct gh-pages paths for deployment)
+  pathPrefix: `/public`,
   siteMetadata: {
     title: `Research Gatsby Site`,
   },
